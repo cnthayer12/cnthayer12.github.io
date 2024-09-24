@@ -6,3 +6,7 @@ body {
     color:lightpink;
     text-align: center; 
 }
+    h2 {
+        color: lightpink
+        text-align: left;
+    }
