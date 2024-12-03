@@ -10,6 +10,15 @@ body {
         color: lightpink
         text-align: left;
     }
+    .about {
+        color:black;
+        text-align: right;
+        display:flex;
+        flex-wrap:wrap;
+        margin-right: 100px;
+        margin: left 100px;
+        justify-content: center;
+    }
 
     .projects { 
         display:flex; 
@@ -21,6 +30,14 @@ body {
     padding: 20px 10px;
     background: rgb(190, 149, 255); 
     border-radius: 25%;
+    }
+    .project img{
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+        border: 2px solid rgb(126, 14, 201);
+        display: block;
+        margin: auto;
     }
 
     .about{
@@ -44,5 +61,10 @@ body {
         margin: auto;
         line-height: 125%;
     }
+
+    .skills
+{
+    text-align: center;
+}
 
 
